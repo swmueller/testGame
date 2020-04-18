@@ -22,6 +22,7 @@ function nextSequence() {
 }
 
 function fplaySound(sColor) {
+//console.log ("playsound");
   var url="./sounds/" + sColor + ".mp3";
   //onsole.log ("sound:" +url);
   var audio = new Audio(url);
@@ -133,7 +134,7 @@ $(document).on("click",function(){
         showStartWithKeyBoard();
       }
  });
- 
+
 
  $("body").keypress(function(){
    if (iStarted===0) {

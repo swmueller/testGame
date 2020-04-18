@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+ /* for a test enable below style to set all elements on same row (if possible by screen width) */
+/* .row{
+    display: inline-block;
+} */
+
+
+.btn {
+  border: 10px solid black;
+  border-radius: 20%;
+  /* inline-block used to format two elements on same line (inline block)
+  next two bottoms on separate line because of the row class (inline-block not set) */
+  display: inline-block;
+  height: 200px;
+  margin: 25px;
+  width: 200px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

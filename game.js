@@ -56,6 +56,7 @@ function showStartWithKeyBoard(){
   oldText= $("#level-title").text();
   $("#level-title").text("PRESS KEY ON KEYBOARD TO START");
   $("#level-title").fadeToggle().fadeToggle().fadeToggle().fadeToggle();
+  fplaySound("wrong");
   setTimeout(function() {
     $("#level-title").text(oldText);
     },1000)
